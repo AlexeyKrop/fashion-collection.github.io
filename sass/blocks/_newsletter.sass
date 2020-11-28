@@ -1,0 +1,115 @@
+.newsletter
+  padding: 104px 100px 
+  position: relative
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: 
+  background-color: #1565D8
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    background-image: url('../img/Oval.png')
+    background-repeat: no-repeat
+  &::after
+    content: ''
+    position: absolute
+    background-image: url('../img/Oval-right.png')
+    background-repeat: no-repeat
+    background-position: 100% 50%
+    z-index: 
+    width: 100%
+    height: 100%
+    top: 0
+    right: 0
+  &-wrapper
+    max-width: 1080px
+    width: 100%
+    position: relative
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    z-index: 99
+  &-subscribe
+    max-width: 486px
+    &__title
+      margin: 0
+      font-family: HK Grotesk, sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 48px
+      line-height: 60px
+      letter-spacing: -1.2px
+      color: #FFFFFF
+      margin-bottom: 10px
+    &__subtitle    
+      font-family: Open Sans
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 32px
+      color: #FFFFFF
+  &-form
+    position: relative
+    width: 447px
+    height: 56px
+    border-radius: 6px
+    margin-top: -8px
+    border: none
+    &__input
+      position: absolute
+      padding-left: 48px
+      padding-right: 
+      width: 100%
+      min-height: 100%
+      border: none
+      font-family: 
+      font-style: normal
+      font-weight: 300
+      font-size: 14px
+      line-height: 18px
+      color: #BDBDBD
+      border-radius: 6px
+      outline: none
+      border: none
+    &__icon
+      position: absolute
+      z-index: 10
+      width: 16px
+      top: 42%
+      left: 4%    
+    &__button
+      position: absolute     
+      top: 4px
+      right: 4px
+      bottom: 4px
+      left: 
+      width: 143px
+      min-height: 86%
+      font-family: Open Sans
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 25px
+      text-align: center
+      color: #FFFFFF
+      background: #183B56
+      border-radius: 4px
+      border: none
+      cursor: pointer
+      outline: none
+      border-radius: 4px   
+
+        

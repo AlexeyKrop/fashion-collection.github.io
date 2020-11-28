@@ -1,0 +1,66 @@
+.modal
+  &__overlay
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    background-color: rgba(0, 143, 223, 0.39)
+    z-index: 300
+    visibility: hidden
+    opacity: 0
+    &_visible
+      visibility: visible
+      opacity: 1
+  &__dialog
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    max-width: 400px
+    width: 100%      
+    min-height: 200px
+    padding: 33px 88px
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(202,220,252,1) 86%, rgba(154,186,231,1) 93%, rgba(148,187,233,1) 100%);
+    color: white
+    border-radius: 8px
+    z-index: 101
+    visibility: hidden
+    opacity: 0
+    &_visible
+      visibility: visible
+      opacity: 1
+  &__title
+    padding: 0 0 15px 0
+    font-style: normal
+    font-weight: 700
+    font-size: 18px    
+    text-transform: uppercase
+    text-align: center
+  &__close
+    position: absolute
+    top: 5%
+    right: 5%    
+  &__input
+    max-width: 302px
+    min-height: 30px 
+    width: 100%
+    border: none
+    outline: none
+    margin-bottom: 10px
+  &__button
+    max-width: 100%
+    width: 100%
+    padding: 10px
+    background-color: red
+    border-radius: 5px
+    color: #FFF8DC
+    font-weight: bold 
+    min-height: 20px
+    box-shadow: 7px 7px 17px 12px rgba(194,170,194,0.59) 
+
+      
+
+
+
+        

@@ -1,1 +1,3 @@
-# fashion-collection.github.io
+# fashion-collection
+
+Дипломный проект

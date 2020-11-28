@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.ico" />
+    <title>Fashion-collection</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar__mobile_fixed">
+      <div class="container">
+        <div class="navbar-menu">
+          <a href="index.html" class="logo">
+            <img src="./img/Logo.png" alt="Header-logo" class="logo__image" />
+          </a>
+          <ul class="navbar-menu__list">
+            <li class="navbar-menu__item navbar-menu__item_hidden">
+              <a href="#" class="navbar-menu__link"
+                ><img
+                  src="./img/ic_Close.png"
+                  alt="close icon"
+                  class="navbar-menu__link_visible"
+              /></a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item_mobile">
+              <a href="#" class="navbar-menu__link">Home</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item_mobile">
+              <a href="#" class="navbar-menu__link">Landings</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item_mobile">
+              <a href="#" class="navbar-menu__link">Pages</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item_mobile">
+              <a href="#" class="navbar-menu__link">Docs</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item_mobile">
+              <a href="#" class="navbar-menu__link">Help</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item_mobile">
+              <button
+                class="navbar-menu__button navbar-menu__button_hidden"
+                data-toggle="modal"
+              >
+                Get it now
+              </button>
+            </li>
+          </ul>
+          <button class="menu-button navbar-menu__btn">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
+        </div>
+
+        <!-- /.navbar-menu -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.navbar -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-info">
+          <div class="hero-info__title">
+            <span class="hero-info__label">#Ready to be cool</span>
+            <div class="hero-info__block">
+              <h2 class="hero-info__subtitle hero-info__subtitle_c">
+                Cause Everyone
+              </h2>
+              <h2 class="hero-info__subtitle hero-info__subtitle_d">
+                Deserve to be Cool
+              </h2>
+              <h2 class="hero-info__subtitle hero-info__subtitle_f">
+                & Fashionable
+              </h2>
+            </div>
+            <!-- /.hero-info__block -->
+            <div class="hero-info__description">
+              <p class="hero-info__text">
+                How you can be a Cool People or Fashionista Society. To solve
+                this you should wear a great clothes and updated your style. You
+                can search here. Explore Now!
+              </p>
+            </div>
+            <!-- /.hero-info__description -->
+          </div>
+          <!-- /.hero-info__title -->
+          <button class="hero-info__button">Take Exploration</button>
+          <ul class="hero-info__list">
+            <li class="hero-info__item">
+              <img src="./img/Icon.png" alt="icon" class="hero-info__image" />
+              <span class="hero-info__sign">COD Payment</span>
+            </li>
+            <li class="hero-info__item">
+              <img src="./img/Icon-V.png" alt="icon" class="hero-info__image" />
+              <span class="hero-info__sign hero-info__sign_g">Guarantee</span>
+            </li>
+            <li class="hero-info__item">
+              <img
+                src="./img/Icon-like.png"
+                alt="icon"
+                class="hero-info__image"
+              />
+              <span class="hero-info__sign">Quality</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.hero-info -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+    <section class="collection">
+      <div class="container">
+        <div class="wrapper">
+          <div class="wrapper-card">
+            <div class="collection-card">
+              <img
+                src="./img/Base.png"
+                alt="main image"
+                class="collection-card__image"
+              />
+            </div>
+            <!-- /.collection-card -->
+            <div class="collection-card card">
+              <img src="./img/chair.png" alt="chair" class="card__image" />
+              <img src="./img/room.png" alt="room" class="card__image" />
+            </div>
+            <!-- /. collection-card -->
+          </div>
+          <!-- /.collection-card__wrapper -->
+          <div class="collection-info">
+            <h2 class="collection-info__title">New Winter Collection</h2>
+            <p class="collection-info__text">
+              Now is Winter Season. Like the season, we choose some outfit and
+              clothes based on Winter season. You can see more this collection
+              by click See More button on below. Let’s buy Our Collection before
+              all they’re gone. Use EHYA20 to get 20% Disc.
+            </p>
+            <div class="collection-info__item">
+              <a href="#" class="collection-info__link">Check Our Collection</a>
+              <img
+                src="./img/collection-icon.png"
+                alt="icon"
+                class="collection-info__image"
+              />
+            </div>
+            <!-- /.collection-info__item -->
+          </div>
+          <!-- /.collection-info -->
+        </div>
+        <!-- /.wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.collection -->
+    <section class="trending">
+      <div class="container">
+        <div class="trending-wrap">
+          <div class="trending-info">
+            <div class="trending-info__text">
+              <h2 class="trending-info__title">Trending Items</h2>
+              <ul class="trending-info__list">
+                <li
+                  class="trending-info__items trending-info__link trending-info__link_n"
+                >
+                  New Arrival
+                </li>
+                <li
+                  class="trending-info__items trending-info__link"
+                  data-target="#best"
+                >
+                  Best Sellers
+                </li>
+                <li
+                  class="trending-info__items trending-info__link"
+                  data-target="#upcoming, #Arrival, #mask, #red"
+                >
+                  Upcoming
+                </li>
+              </ul>
+            </div>
+            <!-- /. trending-info__title-->
+          </div>
+          <!-- /.trending-info -->
+          <div class="trending-wrapper">
+            <div class="trending__card">
+              <img
+                src="./img/Minim.png"
+                alt="first image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Minimalist Style</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$25.7</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card" id="best">
+              <img
+                src="./img/Luxure.png"
+                alt="second image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Luxury Gown</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$30.6</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card" id="upcoming">
+              <img
+                src="./img/Colorist.png"
+                alt="third image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Full Coloristy</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$25.7</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card" id="Arrival">
+              <img
+                src="./img/pinky.png"
+                alt="fourth image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Pinky Winky</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$109</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card">
+              <img
+                src="./img/holiday.png"
+                alt="fifth image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Holiday Vibes</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$51.2</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card">
+              <img
+                src="./img/swaggy.png"
+                alt="sixth image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Swaggie Shaggy</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$81.3</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card" id="red">
+              <img
+                src="./img/red.png"
+                alt="seventh image"
+                class="trending__image"
+              />
+              <h4 class="trending__description">Red Formal</h4>
+              <div class="trending__price">
+                <span class="trending__price-pricetag">$66.8</span>
+                <img
+                  src="./img/shopping-cart.png"
+                  alt="icon"
+                  class="trending__price-icon"
+                />
+              </div>
+              <!-- /.trending__price -->
+            </div>
+            <!-- /.trending-__card -->
+            <div class="trending__card" id="mask">
+              <a href="#" class="trending__link"
+                ><img
+                  src="./img/mask.png"
+                  alt="eight image"
+                  class="trending__image"
+              /></a>
+            </div>
+            <!-- /.trending-__card -->
+          </div>
+          <!-- /.trending-wrapp -->
+        </div>
+        <!-- /.wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.trending -->
+    <section class="testomonial">
+      <div class="testomonial-wrapper">
+        <div class="slider">
+          <div class="slider__item">
+            <img src="./img/quote-left.png" alt="" class="testomonial__icon" />
+            <p class="testomonial__text">
+              "I absolutely love the designs and styles that Ehya creates..They
+              are so different and innovative. I have bought several times from
+              the collections and what I love is that they really are timeless
+              pieces and the quality of the fabric is devine.... I look forward
+              to seeing the new collections from season to season”
+            </p>
+            <h4 class="testomonial__description">
+              Alicia Puma - Fashun Customer
+            </h4>
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img src="./img/quote-left.png" alt="" class="testomonial__icon" />
+            <p class="testomonial__text">
+              "I absolutely love the designs and styles that Ehya creates..They
+              are so different and innovative. I have bought several times from
+              the collections and what I love is that they really are timeless
+              pieces and the quality of the fabric is devine.... I look forward
+              to seeing the new collections from season to season”
+            </p>
+            <span class="testomonial__description"
+              >Alicia Puma - Fashun Customer</span
+            >
+          </div>
+          <!-- /.slider__item -->
+          <div class="slider__item">
+            <img src="./img/quote-left.png" alt="" class="testomonial__icon" />
+            <p class="testomonial__text">
+              "I absolutely love the designs and styles that Ehya creates..They
+              are so different and innovative. I have bought several times from
+              the collections and what I love is that they really are timeless
+              pieces and the quality of the fabric is devine.... I look forward
+              to seeing the new collections from season to season”
+            </p>
+            <span class="testomonial__description"
+              >Alicia Puma - Fashun Customer</span
+            >
+          </div>
+          <!-- /.slider__item -->
+        </div>
+        <!-- /.slider -->
+      </div>
+      <!-- /.textomonial-wrapper -->
+    </section>
+    <!-- /.testomonial -->
+    <section class="stories">
+      <span class="stories-line"></span>
+      <div class="stories-wrapper">
+        <div class="stories-about">
+          <span class="stories-about__subtitle">Stories</span>
+          <h4 class="stories-about__title">This is Fashun Story</h4>
+          <p class="stories-about__text">
+            Check our story about fashion for reference and your style. Written
+            by our designer and specialist.
+          </p>
+        </div>
+        <!-- /.stories-about -->
+        <div class="stories-slider">
+          <div class="stories-slider__item">
+            <div class="stories-slider__wrapper">
+              <div class="stories-wrap">
+                <img
+                  src="./img/slider-image.png"
+                  alt="slider:image"
+                  class="stories-slider__image"
+                />
+                <div class="stories-info">
+                  <p class="stories-info__text">
+                    Mix & Match Style 01: Casual Style x Formal Style Look
+                  </p>
+                  <span class="stories-info__subtitle">Read More</span>
+                </div>
+                <!-- /.stories-info -->
+              </div>
+              <div class="stories-wrap">
+                <img
+                  src="./img/Slider.png"
+                  alt="slider:image"
+                  class="stories-slider__image"
+                />
+                <div class="stories-info stories-info_t">
+                  <p class="stories-info__text">
+                    Tips & Trick : Buy a Thrifft <br />
+                    Clothes on Sunday <br />Market, YK
+                  </p>
+                  <span class="stories-info__subtitle">Read More</span>
+                </div>
+              </div>
+              <!-- /.stories-wrap -->
+            </div>
+            <!-- /stories-slider__wrapper -->
+          </div>
+          <!-- /.stories-slider__item -->
+          <div class="stories-slider__item">
+            <div class="stories-slider__wrapper">
+              <div class="stories-wrap">
+                <img
+                  src="./img/slider-image.png"
+                  alt="slider:image"
+                  class="stories-slider__image"
+                />
+                <div class="stories-info">
+                  <p class="stories-info__text">
+                    Mix & Match Style 01: Casual Style x Formal Style Look
+                  </p>
+                  <span class="stories-info__subtitle">Read More</span>
+                </div>
+                <!-- /.stories-info -->
+              </div>
+              <div class="stories-wrap">
+                <img
+                  src="./img/Slider.png"
+                  alt="slider:image"
+                  class="stories-slider__image"
+                />
+                <div class="stories-info stories-info_t">
+                  <p class="stories-info__text">
+                    Tips & Trick : Buy a Thrifft<br />
+                    Clothes on Sunday<br />
+                    Market, YK
+                  </p>
+                  <span class="stories-info__subtitle">Read More</span>
+                </div>
+              </div>
+              <!-- /.stories-wrap -->
+            </div>
+            <!-- /stories-slider__wrapper -->
+          </div>
+          <!-- /.stories-slider__item -->
+        </div>
+        <!-- /.stories-slider -->
+      </div>
+      <!-- /.stories-wrapper -->
+    </section>
+    <!-- /.stories -->
+    <section class="newsletter">
+      <div class="newsletter-wrapper">
+        <div class="newsletter-subscribe">
+          <h2 class="newsletter-subscribe__title">Join Our Newsletter</h2>
+          <span class="newsletter-subscribe__subtitle"
+            >Just insert your email into the field below. And you will get the
+            updates about fashion & styles from us.</span
+          >
+        </div>
+        <!-- /.newsletter-subscribe -->
+        <form action="send.php" method="POST" class="newsletter-form form">
+          <img
+            src="./img/Icon-newletter.png"
+            alt="newsletter-icon"
+            class="newsletter-form__icon"
+          />
+          <input
+            type="email"
+            class="input newsletter-form__input"
+            placeholder="Your email"
+            name="email"
+            required
+          />
+          <button class="newsletter-form__button">Subscribe</button>
+        </form>
+      </div>
+      <!-- /.newsletter-wrapper -->
+    </section>
+    <!-- /.newsletter -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="footer-info">
+            <a href="index.html" class="footer-info__link"
+              ><img
+                src="./img/Logo.png"
+                alt="footer:logo"
+                class="footer-info__logo"
+            /></a>
+            <p class="footer-info__text">
+              Build a modern and creative website with crealand
+            </p>
+            <div class="footer-info__item">
+              <a
+                href="https://www.google.com/"
+                class="footer-info__link"
+                target="_blank"
+                ><img
+                  src="./img/Icon-google.png"
+                  alt="icon-google"
+                  class="footer-info__image"
+              /></a>
+              <a
+                href="https://twitter.com/?lang=ru"
+                class="footer-info__link"
+                target="_blank"
+                ><img
+                  src="./img/Icon-twitter.png"
+                  alt="icon-twitter"
+                  class="footer-info__image"
+              /></a>
+              <a
+                href="https://www.instagram.com/?hl=ru"
+                class="footer-info__link"
+                target="_blank"
+                ><img
+                  src="./img/Icon-instagram.png"
+                  alt="Icon-instagram"
+                  class="footer-info__image"
+              /></a>
+              <a
+                href="www.linkedin.com"
+                class="footer-info__link"
+                target="_blank"
+                ><img
+                  src="./img/Icon-linkedin.png"
+                  alt="Icon-linkedin"
+                  class="footer-info__image"
+              /></a>
+            </div>
+            <!-- /.footer-info__icon -->
+          </div>
+          <!-- /.footer-info -->
+          <div class="footer-about">
+            <ul class="footer-about__list">
+              <li class="footer-about__item_h">
+                <a href="#" class="footer-about__link_h">Product</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Landingpage</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Features</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Documentation</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Referral Program</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Pricing</a>
+              </li>
+            </ul>
+            <ul class="footer-about__list footer-about__list_s">
+              <li class="footer-about__item_h">
+                <a href="#" class="footer-about__link_h">Services</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Documentation</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Design</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Themes</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Illustrations</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">UI Kit</a>
+              </li>
+            </ul>
+            <ul class="footer-about__list footer-about__list_c">
+              <li class="footer-about__item_h">
+                <a href="#" class="footer-about__link_h">Company</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">About</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Terms</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Privacy Policy</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Careers</a>
+              </li>
+            </ul>
+            <ul class="footer-about__list footer-about__list_m">
+              <li class="footer-about__item_h">
+                <a href="#" class="footer-about__link_h">More</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Documentation</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">License</a>
+              </li>
+              <li class="footer-about__item">
+                <a href="#" class="footer-about__link">Changelog</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-about -->
+        </div>
+        <!-- /.footer-wrapper -->
+        <div class="footer-information">
+          <a href="index.html" class="footer-information__link"
+            ><img
+              src="./img/Heart.png"
+              alt="footer:icon"
+              class="footer-information__image"
+          /></a>
+          <span class="footer-information__text"
+            >Copyright © 2019. Crafted with love.</span
+          >
+        </div>
+        <a href="#" class="footer__link"
+          ><img src="./img/return.png" alt="return" class="footer__image"
+        /></a>
+      </div>
+      <!-- /.footer-container -->
+    </footer>
+    <!-- /.footer -->
+    <div class="modal">
+      <div class="modal__overlay">
+        <div class="modal-wrapper">
+          <div class="modal__dialog">
+            <h3 class="modal__title">Send message</h3>
+            <a href="#" class="modal__close">
+              <img src="./img/close.svg" alt="icon:modal" class="modal__icon" />
+            </a>
+            <form action="send.php" method="POST" class="modal__form form_2">
+              <input
+                type="email"
+                placeholder="Email*"
+                class="input modal__input"
+                name="email"
+                required
+              />
+              <button class="button modal__button" type="submit">Send</button>
+            </form>
+          </div>
+          <!-- /.modal__dialog -->
+        </div>
+        <!-- /.modal-wrapper -->
+      </div>
+      <!-- /.modal__overlay -->
+    </div>
+    <!-- /.modal -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
